@@ -10,7 +10,7 @@ This study highlights how automated text analysis can paint a comprehensive pict
 
 # Project File
 
-**Main Notebook** 'Feminism Reddit NLP.ipynb'
+**Main Notebook** `Feminism Reddit NLP.ipynb`
 The core Jupyter Notebook that scrapes, processes, analyzes, and visualizes Reddit posts and comments. 
 
 # Data Files
