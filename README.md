@@ -15,18 +15,18 @@ The core Jupyter Notebook that scrapes, processes, analyzes, and visualizes Redd
 
 # Data Files
 
-'feminism_praw_posts_comments.csv' 
-Raw dataset of Reddit posts and associated comments retrieved via the praw API.
+- `feminism_comments_as_posts.csv`  
+  Reddit comments reformatted and analyzed as standalone "posts" for comparative sentiment/topic analysis.
 
-'feminism_posts_tagged_by_topic.csv'
-Posts annotated with topic categories either manually or via keyword/topic modeling.
+- `feminism_comments_with_bert_sentiment.csv`  
+  Comments labeled with sentiment (positive, neutral, negative) using a BERT-based classifier.
 
-'feminism_posts_with_bert_sentiment.csv'
-Original posts with BERT-derived sentiment scores.
+- `feminism_posts_tagged_by_topic.csv`  
+  Posts annotated with topic categories either manually or via keyword/topic modeling.
 
-'feminism_comments_as_posts.csv'
-Reddit comments reformatted and analyzed as standalone "posts" for comparative sentiment/topic analysis.
+- `feminism_posts_with_bert_sentiment.csv`  
+  Original posts with BERT-derived sentiment scores.
 
-feminism_comments_with_bert_sentiment.csv
-Comments labeled with sentiment (positive, neutral, negative) using a BERT-based classifier.
+- `feminism_praw_posts_comments.csv`  
+  Raw dataset of Reddit posts and associated comments retrieved via the `praw` API.
 
